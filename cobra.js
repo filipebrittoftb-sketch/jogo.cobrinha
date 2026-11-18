@@ -1,6 +1,6 @@
 const cobra = 
 {
-    cor:"purple",
+    cor:"green",
     tamanho:10,
     direcao:"direita",
     x:400,
@@ -28,5 +28,7 @@ const cobra =
         this.vida--;
         this.x=400;
         this.y=260;
+        if (this.vida == 2) this.cor = "orange"
+        if (this.vida == 1) this.cor = "red";
     }
 }

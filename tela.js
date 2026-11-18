@@ -1,6 +1,6 @@
 const tela = 
     {
-    cor:"green",
+    cor:"gray",
     altura:400,
     largura:800,
     desenhar()
